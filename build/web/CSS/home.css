@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../Image/bg-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    margin: auto;
+    margin-bottom: 100px;
+    width: 980px;
+    min-height: 1000px;
+    /*border: 1px solid red;*/
+}
+
+/* Interface for container */
+
+/*
+    1. Header
+*/
+
+.header {
+    height: 180px;
+}
+
+/* Interface for header */
+.title-header {
+    height: 100px;
+    color: #fff;
+    background-color: #f68c1f;
+    padding-top: 50px;
+}
+
+.title-header h1 {
+    margin: 0 30px;
+}
+
+.title-header h4 {
+    margin: 5px 30px;
+}
+
+.menu {
+    height: 30px;
+    background-color: #890400;
+}
+
+.menu a {
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+/*
+    2. Content
+*/
+
+.content {
+    min-height: calc(100% - 180px);
+    display: flex;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* Divide content into two seperate parts */
+
+.content-right {
+    width: 30%;
+    height: 100%;
+}
+
+/* Interface for box (content-right)*/
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 150px;
+    background-color: white;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 20%);
+    padding-left: 10px;
+}
+
+/*Adding Logo for inside's BOX elements'*/
+.box .facebook::before {
+    width: 16px;
+    height: 16px;
+    content: '';
+    background-image: url('../Image/fb.jpg');
+    position: absolute;
+}
+
+.box .twitter::before {
+    width: 16px;
+    height: 16px;
+    content: '';
+    background-image: url('../Image/twitter.jpg');
+    position: absolute;
+}
+
+.box a {
+    color: black;
+}
+
+.box .google::before {
+    width: 16px;
+    height: 16px;
+    content: '';
+    background-image: url('../Image/gg.jpg');
+    position: absolute;
+}
+
+.box span {
+    margin-left: 20px;
+}
+
+/*Interface for content left items*/
+
+.content-left {
+    width: 70%;
+    height: 100%;
+    /*background-color: aqua;*/ 
+    /*======= CHANGE COLOR HERE =======*/
+    padding-top: 75px;
+}
+
+.content .content-item{
+    min-height: 100px;
+    /*border-bottom: 2px dotted #000;*/
+    /*background-color: #ffa;*/     
+    /*======= CHANGE COLOR HERE =======*/
+    margin-bottom: 10px;
+}
+
+.content .content-left-wrapper{
+    margin-left: 40px;
+}
+
+/*Interface for first content-item*/
+.first {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.img-intro {
+    width: 25%;
+    margin-right: 15px;
+}
+
+.img-intro img {
+    border-radius: 10px;
+}
+
+.content-intro h2{
+    margin: 0;
+    padding: 0;
+}
+
+/*INTERFACE FOR SECOND DIV*/
+.second {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.content-cake {
+    flex: 0 1 50%;
+    /*width: 50%;*/
+    display: flex;
+    flex-direction: column;
+    /*margin-right: 15px;*/
+}
+
+.content-cake h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.cake-img img {
+    border-radius: 20px;
+    background-size: cover; 
+}
+
+/*INTERFACE FOR THIRD DIV*/
+
+.third {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/*INTERFACE FOR SIGNATURE*/
+.signature{
+    border-bottom: none !important;
+    margin-top: 30px;
+    margin-bottom: 50px !important;
+}
+
+.sign {
+    font-size: 40px;
+    line-height: 60px;
+    font-family: 'Dancing Script',serif;
+}

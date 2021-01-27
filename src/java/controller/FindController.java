@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author songm
  */
-public class HomeController extends HttpServlet
+public class FindController extends HttpServlet
 {
 
     /**
@@ -31,7 +31,7 @@ public class HomeController extends HttpServlet
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException
     {
-        request.getRequestDispatcher("Views/Home.jsp").forward(request, response);
+        request.getRequestDispatcher("Views/Find.jsp").forward(request, response);
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

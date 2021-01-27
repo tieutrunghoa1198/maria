@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 26, 2021, 11:45:08 PM
+    Author     : songm
+*/
+.first {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*INFO CSS*/
+
+.info {
+    display: flex;
+    /*flex-direction: column;*/
+}
+/*INFO-LEFT CSS*/
+
+.info .info-left{
+    width: 50%;
+}
+
+.info-title {
+    font-size: 23px;
+}
+
+.row-fluid {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.span3 {
+    width: 30%;
+}
+
+.span9 {
+    width: 70%;
+}
+
+.span9 a {
+    color: black;
+}
+
+.second {
+    border-bottom: none !important;
+    padding-bottom: 30px;
+}
+/*INFO-RIGHT CSS*/
+
+.info .info-right{
+    width: 50%;
+}
+

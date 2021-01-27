@@ -12,7 +12,9 @@ body {
     margin-bottom: 100px;
     width: 980px;
     min-height: 1000px;
-    /*border: 1px solid red;*/
+    background-color: white; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 /* Interface for container */
@@ -42,7 +44,7 @@ body {
 }
 
 .menu {
-    height: 30px;
+    height: auto;
     background-color: #890400;
 }
 
@@ -64,8 +66,6 @@ body {
     min-height: calc(100% - 180px);
     display: flex;
     background-color: white;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
 }
 
 /* Divide content into two seperate parts */
@@ -137,7 +137,7 @@ body {
     /*border-bottom: 2px dotted #000;*/
     /*background-color: #ffa;*/     
     /*======= CHANGE COLOR HERE =======*/
-    margin-bottom: 10px;
+    margin-bottom: 60px;
 }
 
 .content .content-left-wrapper{
@@ -148,7 +148,6 @@ body {
 .first {
     display: flex;
     flex-direction: row;
-    padding-bottom: 20px;
 }
 
 .img-intro {
@@ -208,4 +207,40 @@ body {
     font-size: 40px;
     line-height: 60px;
     font-family: 'Dancing Script',serif;
+}
+
+/*CSS FOR FOOTER*/
+.seperate-line {
+    border: 1px solid #cccccc;
+    margin: 0 20px 0 40px; 
+}
+
+.footer {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 50px;
+    background-color: white;
+    padding: 32px 20px 22px 20px;
+}
+
+.footer-counter {
+    float: right;
+}
+
+.footer-page-counter-item {
+    border: solid 0 #000;
+    background: #fff;
+    /* font-size: 14.4px; */
+    font-family: Arial,Helvetica,Arial,sans-serif;
+    line-height: 14.4px;
+    padding: 2px 2px 1px;
+    margin: 10px 2px 0 0;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px #595959;
+    float: left;
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    width: 10px;
+    position: relative;
 }

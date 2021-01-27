@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        <link rel="stylesheet" href="../CSS/home.css"/>
+        <link rel="stylesheet" href="../Maria_Test/CSS/home.css"/>
     </head>
     <body>
         <div class="container">
@@ -21,9 +21,9 @@
                     <h4>Welcome to my website</h4>
                 </div>
                 <div class="menu">
-                    <a href="#">Home</a>
-                    <a href="#">About My Cakes</a>
-                    <a href="#">Find Maria's Cafe</a>
+                    <a href="/Maria_Test/home">Home</a>
+                    <a href="/Maria_Test/about">About My Cakes</a>
+                    <a href="/Maria_Test/find">Find Maria's Cafe</a>
                 </div>
             </div>
 
@@ -34,7 +34,7 @@
                         <!--first div--> 
                         <div class="content-item first">
                             <div class="img-intro">
-                                <img src="../Image/maria.jpg" width="160px" height="170px">
+                                <img src="../Maria_Test/Image/maria.jpg" width="160px" height="170px">
                             </div>
                             <div class="content-intro">
                                 <h2>Maria's Cosy Cafe</h2>
@@ -63,7 +63,7 @@
                         <div class="content-item second">
                             <div class="content-cake">
                                 <div class="cake-img">
-                                    <img src="../Image/cake1.jpg" width="300px" height="255px">
+                                    <img src="../Maria_Test/Image/cake1.jpg" width="300px" height="255px">
                                 </div>
                                 <h3>In the Afternoon</h3>
                                 <p>
@@ -78,7 +78,7 @@
                             </div>
                             <div class="content-cake">
                                 <div class="cake-img">
-                                    <img src="../Image/cake2.jpg" width="300px" height="255px">
+                                    <img src="../Maria_Test/Image/cake2.jpg" width="300px" height="255px">
                                 </div>
                                 <h3>In the Afternoon</h3>
                                 <p>
@@ -91,9 +91,10 @@
                                     aliquip ex ea commodo consequat.
                                 </p>
                             </div>
+                            
                             <div class="content-cake">
                                 <div class="cake-img">
-                                    <img src="../Image/cake2.jpg" width="300px" height="255px">
+                                    <img src="../Maria_Test/Image/cake2.jpg" width="300px" height="255px">
                                 </div>
                                 <h3>In the Afternoon</h3>
                                 <p>
@@ -132,6 +133,17 @@
                         <a href="#" class="twitter"><span>Share on Twitter</span></a>
                         <a href="#" class="google"><span>Share on Google+</span></a>
                     </div>
+                </div>
+            </div>
+            <div class="seperate-line"></div>
+            <div class="footer">
+                <div class="footer-counter">
+                    <span class="footer-page-counter-item">9</span>
+                    <span class="footer-page-counter-item">2</span>
+                    <span class="footer-page-counter-item">3</span>
+                    <span class="footer-page-counter-item">2</span>
+                    <span class="footer-page-counter-item">6</span>
+                    <span class="footer-page-counter-item">1</span>
                 </div>
             </div>
         </div>

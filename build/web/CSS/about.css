@@ -1,0 +1,25 @@
+.my-cake .img-wrapper{
+    float: right;
+}
+
+.content-left h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.content-left .img-wrapper {
+    margin: 8px 0 3px 20px;
+}
+
+.about-content {
+    margin-bottom: 80px;
+}
+
+.my-cake p {
+    text-align: justify;
+    line-height: 22px;
+}
+
+.img-wrapper img{
+    border-radius: 15px;
+}

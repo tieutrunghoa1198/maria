@@ -11,10 +11,11 @@ body {
     margin: auto;
     margin-bottom: 100px;
     width: 980px;
-    min-height: 1000px;
-    background-color: white; 
-    border-bottom-left-radius: 10px;
+    min-height: 200px;
     border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+    /*border: 1px solid red;*/
 }
 
 /* Interface for container */
@@ -44,7 +45,7 @@ body {
 }
 
 .menu {
-    height: auto;
+    height: 30px;
     background-color: #890400;
 }
 
@@ -134,7 +135,7 @@ body {
 
 .content .content-item{
     min-height: 100px;
-    /*border-bottom: 2px dotted #000;*/
+    border-bottom: 2px dotted #000;
     /*background-color: #ffa;*/     
     /*======= CHANGE COLOR HERE =======*/
     margin-bottom: 60px;
@@ -150,15 +151,6 @@ body {
     flex-direction: row;
 }
 
-.img-intro {
-    width: 25%;
-    margin-right: 15px;
-}
-
-.img-intro img {
-    border-radius: 10px;
-}
-
 .content-intro h2{
     margin: 0;
     padding: 0;
@@ -171,42 +163,11 @@ body {
     margin-top: 10px;
 }
 
-.content-cake {
-    flex: 0 1 50%;
-    /*width: 50%;*/
-    display: flex;
-    flex-direction: column;
-    /*margin-right: 15px;*/
-}
-
-.content-cake h3 {
-    margin: 0;
-    padding: 0;
-}
-
-.cake-img img {
-    border-radius: 20px;
-    background-size: cover; 
-}
-
 /*INTERFACE FOR THIRD DIV*/
 
 .third {
     margin-top: 30px;
     margin-bottom: 50px;
-}
-
-/*INTERFACE FOR SIGNATURE*/
-.signature{
-    border-bottom: none !important;
-    margin-top: 30px;
-    margin-bottom: 50px !important;
-}
-
-.sign {
-    font-size: 40px;
-    line-height: 60px;
-    font-family: 'Dancing Script',serif;
 }
 
 /*CSS FOR FOOTER*/
